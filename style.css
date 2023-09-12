@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+.debug {
+  border: 1px solid red;
+}
+
+.home {
+  background-color: #394032;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme {
+  background-color: #394032;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  background-color: #394032;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}

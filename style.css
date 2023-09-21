@@ -11,6 +11,25 @@ body {
   border: 1px solid red;
 }
 
+.styling-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #cfee9e;
+  color: #cfee9e;
+  padding: 10px 30px 10px 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  border-radius: 12px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hover:hover {
+  background-color: #cfee9e;
+  color: #394032;
+}
+
 .home {
   background-color: #394032;
   display: flex;
@@ -33,4 +52,20 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+}
+
+.image-container {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1) rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover {
+  transform: scale(1.1) rotate(10deg);
 }

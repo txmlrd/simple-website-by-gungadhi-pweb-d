@@ -1,0 +1,17 @@
+.debug {
+  border: 1px solid red;
+}
+
+.debug2 {
+  border: 1px solid green;
+}
+.debug3 {
+  border: 1px solid blue;
+}
+.debug4 {
+  border: 1px solid yellow;
+}
+
+* {
+  font-family: Poppins;
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html,
 body {
   height: 100%;
@@ -7,10 +8,17 @@ body {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+=======
+* {
+  font-family: Poppins;
+}
+
+>>>>>>> 88f8958 (feat: adding all calculator feature with html css and javascript)
 .debug {
   border: 1px solid red;
 }
 
+<<<<<<< HEAD
 .home {
   background-color: #394032;
   display: flex;
@@ -33,4 +41,56 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+=======
+.debug2 {
+  border: 1px solid green;
+}
+.debug3 {
+  border: 1px solid blue;
+}
+.debug4 {
+  border: 1px solid yellow;
+}
+
+.mainCalculator {
+  padding: 10px;
+  border-radius: 1em;
+  height: 380px;
+  width: 400px;
+  margin: auto;
+  background-color: #1c2321;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+  font-family: "{Poppin}", sans-serif;
+  background-color: #dcdbe1;
+  border: solid black 0.5px;
+  color: black;
+  border-radius: 5px;
+  width: 100%;
+  height: 65%;
+}
+
+#btn {
+  background-color: gold;
+}
+
+input[type="button"] {
+  font-family: "Poppins", sans-serif;
+  background-color: #7d98a1;
+  color: white;
+  border: solid black 0.5px;
+  width: 100%;
+  border-radius: 5px;
+  height: 70%;
+  outline: none;
+}
+
+input:active[type="button"] {
+  background: #e5e5e5;
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+>>>>>>> 88f8958 (feat: adding all calculator feature with html css and javascript)
 }
